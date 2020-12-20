@@ -16,6 +16,14 @@
 		39A9F18D258F93F5007544C2 /* challengeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F18C258F93F5007544C2 /* challengeTaskTests.swift */; };
 		39A9F198258F93F5007544C2 /* challengeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F197258F93F5007544C2 /* challengeTaskUITests.swift */; };
 		39A9F1BB258F9A02007544C2 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1BA258F9A02007544C2 /* CurrencyViewController.swift */; };
+		39A9F1C1258F9B8B007544C2 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1C0258F9B8B007544C2 /* CurrencyViewModel.swift */; };
+		39A9F1D5258F9CDA007544C2 /* CurrencyRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1D4258F9CDA007544C2 /* CurrencyRepo.swift */; };
+		39A9F1DE258F9D18007544C2 /* ErrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1DD258F9D18007544C2 /* ErrorObject.swift */; };
+		39A9F1E6258F9D26007544C2 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1E5258F9D26007544C2 /* Currency.swift */; };
+		39A9F1EC258F9D7C007544C2 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1EB258F9D7C007544C2 /* APIRequest.swift */; };
+		39A9F1F1258F9D94007544C2 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1F0258F9D94007544C2 /* APIRouter.swift */; };
+		39A9F202258F9E29007544C2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F201258F9E29007544C2 /* Alert.swift */; };
+		39A9F207258F9EA9007544C2 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F206258F9EA9007544C2 /* CurrencyTableViewCell.swift */; };
 		748EDC92B9CC695CDE3078D0 /* Pods_challengeTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B69B01ECF1F28E8125BBD2 /* Pods_challengeTaskTests.framework */; };
 		B387FC7DF17B4F782AF2488D /* Pods_challengeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8B99F4F2DD6DD5ECAE91 /* Pods_challengeTask.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +61,14 @@
 		39A9F197258F93F5007544C2 /* challengeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengeTaskUITests.swift; sourceTree = "<group>"; };
 		39A9F199258F93F5007544C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39A9F1BA258F9A02007544C2 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		39A9F1C0258F9B8B007544C2 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		39A9F1D4258F9CDA007544C2 /* CurrencyRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRepo.swift; sourceTree = "<group>"; };
+		39A9F1DD258F9D18007544C2 /* ErrorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorObject.swift; sourceTree = "<group>"; };
+		39A9F1E5258F9D26007544C2 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		39A9F1EB258F9D7C007544C2 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		39A9F1F0258F9D94007544C2 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		39A9F201258F9E29007544C2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		39A9F206258F9EA9007544C2 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		69B69B01ECF1F28E8125BBD2 /* Pods_challengeTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_challengeTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3597855AFD2E4F77B509E6 /* Pods-challengeTask-challengeTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeTask-challengeTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-challengeTask-challengeTaskUITests/Pods-challengeTask-challengeTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		85A2AD1A8E2D602804E4E531 /* Pods-challengeTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeTaskTests.release.xcconfig"; path = "Target Support Files/Pods-challengeTaskTests/Pods-challengeTaskTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,9 +132,13 @@
 		39A9F174258F93F4007544C2 /* challengeTask */ = {
 			isa = PBXGroup;
 			children = (
-				39A9F1B4258F9884007544C2 /* Configuration */,
-				39A9F1B5258F9887007544C2 /* Scenes */,
 				39A9F1B2258F9861007544C2 /* Core */,
+				39A9F1F8258F9DEE007544C2 /* Extension */,
+				39A9F1EA258F9D5F007544C2 /* Networking */,
+				39A9F1B4258F9884007544C2 /* Configuration */,
+				39A9F1DC258F9CF4007544C2 /* Model */,
+				39A9F1D3258F9CAD007544C2 /* Repo */,
+				39A9F1B5258F9887007544C2 /* Scenes */,
 				39A9F1B3258F9881007544C2 /* Resources */,
 				39A9F180258F93F5007544C2 /* LaunchScreen.storyboard */,
 			);
@@ -180,9 +200,61 @@
 			isa = PBXGroup;
 			children = (
 				39A9F17B258F93F4007544C2 /* Main.storyboard */,
-				39A9F1BA258F9A02007544C2 /* CurrencyViewController.swift */,
+				39A9F1BF258F9B64007544C2 /* CurrencyScene */,
 			);
 			path = "Main Scene";
+			sourceTree = "<group>";
+		};
+		39A9F1BF258F9B64007544C2 /* CurrencyScene */ = {
+			isa = PBXGroup;
+			children = (
+				39A9F1BA258F9A02007544C2 /* CurrencyViewController.swift */,
+				39A9F1C0258F9B8B007544C2 /* CurrencyViewModel.swift */,
+				39A9F211258FAAF7007544C2 /* CurrencyTableViewCell */,
+			);
+			path = CurrencyScene;
+			sourceTree = "<group>";
+		};
+		39A9F1D3258F9CAD007544C2 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				39A9F1D4258F9CDA007544C2 /* CurrencyRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		39A9F1DC258F9CF4007544C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39A9F1DD258F9D18007544C2 /* ErrorObject.swift */,
+				39A9F1E5258F9D26007544C2 /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39A9F1EA258F9D5F007544C2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				39A9F1EB258F9D7C007544C2 /* APIRequest.swift */,
+				39A9F1F0258F9D94007544C2 /* APIRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		39A9F1F8258F9DEE007544C2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				39A9F201258F9E29007544C2 /* Alert.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		39A9F211258FAAF7007544C2 /* CurrencyTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				39A9F206258F9EA9007544C2 /* CurrencyTableViewCell.swift */,
+			);
+			path = CurrencyTableViewCell;
 			sourceTree = "<group>";
 		};
 		42A92F7E9E6ECF0A39D77FBD /* Frameworks */ = {
@@ -446,9 +518,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A9F1D5258F9CDA007544C2 /* CurrencyRepo.swift in Sources */,
+				39A9F1F1258F9D94007544C2 /* APIRouter.swift in Sources */,
 				39A9F176258F93F4007544C2 /* AppDelegate.swift in Sources */,
+				39A9F207258F9EA9007544C2 /* CurrencyTableViewCell.swift in Sources */,
+				39A9F1C1258F9B8B007544C2 /* CurrencyViewModel.swift in Sources */,
 				39A9F1BB258F9A02007544C2 /* CurrencyViewController.swift in Sources */,
 				39A9F178258F93F4007544C2 /* SceneDelegate.swift in Sources */,
+				39A9F1E6258F9D26007544C2 /* Currency.swift in Sources */,
+				39A9F202258F9E29007544C2 /* Alert.swift in Sources */,
+				39A9F1EC258F9D7C007544C2 /* APIRequest.swift in Sources */,
+				39A9F1DE258F9D18007544C2 /* ErrorObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +707,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83P9AL35VH;
-				INFOPLIST_FILE = challengeTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/challengeTask/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -647,7 +727,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83P9AL35VH;
-				INFOPLIST_FILE = challengeTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/challengeTask/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

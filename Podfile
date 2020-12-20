@@ -10,6 +10,7 @@ target 'challengeTask' do
     pod 'Alamofire', '~> 5.0'
     pod 'RxSwift', '~> 5.1.0'
     pod 'RxCocoa', '~> 5.1.0'
+    pod 'ActionSheetPicker-3.0'
 
   target 'challengeTaskTests' do
     inherit! :search_paths
