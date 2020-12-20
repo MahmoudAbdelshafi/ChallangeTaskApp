@@ -1,0 +1,6 @@
+framework module Pods_challengeTask {
+  umbrella header "Pods-challengeTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
