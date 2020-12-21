@@ -1,8 +1,8 @@
 # ChallangeTaskApp
 
 ## Installation 
-* clone the repo
-* please make sure to use ' $ pod install ' to install pods.
+* Clone the repo
+* Please make sure to run ' $ pod install ' to install pods.
 * IOS14
 
 
