@@ -4,7 +4,7 @@
 
 * please make sure to use ' $ pod install ' to install pods.
  
- * SportsLeagues is a simple iOS application built as interview task.
+ * ChallangeTaskApp is a simple iOS application built as interview task.
  * Built in MVVM (Model-View-ViewModel) with Reactive Programming (RXSwift).
 
 
