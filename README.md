@@ -56,4 +56,6 @@ A view model is much easier to test than a view controller. You end up testing b
 First I will make an example of this feature.
 Second I will bring it up to the table and show it to my team members and we can discuss the feature.
 Third if the discussion was positive about my suggestion we can put a plan for the feature, else { I can think in another feature for another discussion :D }
+
+
 <details> 
