@@ -13,7 +13,6 @@
 		39A9F17D258F93F4007544C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A9F17B258F93F4007544C2 /* Main.storyboard */; };
 		39A9F17F258F93F5007544C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A9F17E258F93F5007544C2 /* Assets.xcassets */; };
 		39A9F182258F93F5007544C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A9F180258F93F5007544C2 /* LaunchScreen.storyboard */; };
-		39A9F18D258F93F5007544C2 /* challengeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F18C258F93F5007544C2 /* challengeTaskTests.swift */; };
 		39A9F198258F93F5007544C2 /* challengeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F197258F93F5007544C2 /* challengeTaskUITests.swift */; };
 		39A9F1BB258F9A02007544C2 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1BA258F9A02007544C2 /* CurrencyViewController.swift */; };
 		39A9F1C1258F9B8B007544C2 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1C0258F9B8B007544C2 /* CurrencyViewModel.swift */; };
@@ -24,6 +23,9 @@
 		39A9F1F1258F9D94007544C2 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F1F0258F9D94007544C2 /* APIRouter.swift */; };
 		39A9F202258F9E29007544C2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F201258F9E29007544C2 /* Alert.swift */; };
 		39A9F207258F9EA9007544C2 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9F206258F9EA9007544C2 /* CurrencyTableViewCell.swift */; };
+		39B11D1925900FBD0077A1F7 /* CurrencySceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B11D1825900FBD0077A1F7 /* CurrencySceneTests.swift */; };
+		39B11D34259011230077A1F7 /* BaseRepoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B11D33259011230077A1F7 /* BaseRepoMock.swift */; };
+		39B11D39259011BA0077A1F7 /* CurrencyMockRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B11D38259011BA0077A1F7 /* CurrencyMockRepo.swift */; };
 		748EDC92B9CC695CDE3078D0 /* Pods_challengeTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B69B01ECF1F28E8125BBD2 /* Pods_challengeTaskTests.framework */; };
 		B387FC7DF17B4F782AF2488D /* Pods_challengeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8B99F4F2DD6DD5ECAE91 /* Pods_challengeTask.framework */; };
 /* End PBXBuildFile section */
@@ -55,7 +57,6 @@
 		39A9F181258F93F5007544C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A9F183258F93F5007544C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39A9F188258F93F5007544C2 /* challengeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challengeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39A9F18C258F93F5007544C2 /* challengeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengeTaskTests.swift; sourceTree = "<group>"; };
 		39A9F18E258F93F5007544C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39A9F193258F93F5007544C2 /* challengeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challengeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A9F197258F93F5007544C2 /* challengeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengeTaskUITests.swift; sourceTree = "<group>"; };
@@ -69,6 +70,9 @@
 		39A9F1F0258F9D94007544C2 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		39A9F201258F9E29007544C2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		39A9F206258F9EA9007544C2 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		39B11D1825900FBD0077A1F7 /* CurrencySceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySceneTests.swift; sourceTree = "<group>"; };
+		39B11D33259011230077A1F7 /* BaseRepoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepoMock.swift; sourceTree = "<group>"; };
+		39B11D38259011BA0077A1F7 /* CurrencyMockRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyMockRepo.swift; sourceTree = "<group>"; };
 		69B69B01ECF1F28E8125BBD2 /* Pods_challengeTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_challengeTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3597855AFD2E4F77B509E6 /* Pods-challengeTask-challengeTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeTask-challengeTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-challengeTask-challengeTaskUITests/Pods-challengeTask-challengeTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		85A2AD1A8E2D602804E4E531 /* Pods-challengeTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challengeTaskTests.release.xcconfig"; path = "Target Support Files/Pods-challengeTaskTests/Pods-challengeTaskTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +152,8 @@
 		39A9F18B258F93F5007544C2 /* challengeTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				39A9F18C258F93F5007544C2 /* challengeTaskTests.swift */,
+				39B11D1625900F090077A1F7 /* Scenes */,
+				39B11D2025900FF30077A1F7 /* ReposMock */,
 				39A9F18E258F93F5007544C2 /* Info.plist */,
 			);
 			path = challengeTaskTests;
@@ -255,6 +260,31 @@
 				39A9F206258F9EA9007544C2 /* CurrencyTableViewCell.swift */,
 			);
 			path = CurrencyTableViewCell;
+			sourceTree = "<group>";
+		};
+		39B11D1625900F090077A1F7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				39B11D1725900F270077A1F7 /* CurrencyScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		39B11D1725900F270077A1F7 /* CurrencyScene */ = {
+			isa = PBXGroup;
+			children = (
+				39B11D1825900FBD0077A1F7 /* CurrencySceneTests.swift */,
+			);
+			path = CurrencyScene;
+			sourceTree = "<group>";
+		};
+		39B11D2025900FF30077A1F7 /* ReposMock */ = {
+			isa = PBXGroup;
+			children = (
+				39B11D33259011230077A1F7 /* BaseRepoMock.swift */,
+				39B11D38259011BA0077A1F7 /* CurrencyMockRepo.swift */,
+			);
+			path = ReposMock;
 			sourceTree = "<group>";
 		};
 		42A92F7E9E6ECF0A39D77FBD /* Frameworks */ = {
@@ -536,7 +566,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A9F18D258F93F5007544C2 /* challengeTaskTests.swift in Sources */,
+				39B11D34259011230077A1F7 /* BaseRepoMock.swift in Sources */,
+				39B11D39259011BA0077A1F7 /* CurrencyMockRepo.swift in Sources */,
+				39B11D1925900FBD0077A1F7 /* CurrencySceneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
